@@ -27,3 +27,6 @@ Fonts:
   ☐ Contact Us - Button - Montserrat Regular - 15px - #ffffff
   ☐ Contact Us - text - Montserrat Regular - 15px - #55565b
   ☐ Footer - text - Montserrat Regular - 15px - #57c654
+
+  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
