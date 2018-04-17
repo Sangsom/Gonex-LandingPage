@@ -1,11 +1,18 @@
 import React, { Component } from "react";
+import { ThemeProvider } from "styled-components";
+
+const mainTheme = {
+  color: "mediumseagreen"
+};
 
 class Root extends Component {
   render() {
     return (
-      <React.Fragment>
-        <h1>Root</h1>
-      </React.Fragment>
+      <ThemeProvider theme={mainTheme}>
+        <React.Fragment>
+          <h1>Root</h1>
+        </React.Fragment>
+      </ThemeProvider>
     );
   }
 }
