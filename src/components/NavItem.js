@@ -4,7 +4,7 @@ const NavItem = styled.li`
   a {
     font-family: "Montserrat", sans-serif;
     color: ${props =>
-      props.active ? props.theme.linkActiveColor : props.theme.white};
+      props.active ? props.theme.linkActiveColor : props.theme.textWhite};
     font-size: ${props => props.theme.linkSize};
     text-transform: uppercase;
     padding: 23px;
