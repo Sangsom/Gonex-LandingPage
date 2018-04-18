@@ -1,6 +1,6 @@
 
 Fonts:
-  ☐ NavBar - Montserrat Regular - 12px - #ffffff - .active #57c654 
+  ✔ NavBar - Montserrat Regular - 12px - #ffffff - .active #57c654 @done(18-04-18 14:51)
   ☐ Slider h1 - Montserrat Bold - 40px - #f95353
   ☐ Slider text - Lora Regular - 15px - #ffffff
   ☐ Slide button - Montserrat Regular - 15px - #ffffff
@@ -27,6 +27,10 @@ Fonts:
   ☐ Contact Us - Button - Montserrat Regular - 15px - #ffffff
   ☐ Contact Us - text - Montserrat Regular - 15px - #55565b
   ☐ Footer - text - Montserrat Regular - 15px - #57c654
+
+Font-family:
+  ☐ Regular - 400
+  ☐ Bold - 700
 
   font-family: 'Lora', serif;
   font-family: 'Montserrat', sans-serif;

@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import { ThemeProvider } from "styled-components";
+import Home from "./Home";
 
 const mainTheme = {
-  color: "mediumseagreen"
+  color: "mediumseagreen",
+  white: "#ffffff",
+  linkSize: "12px",
+  linkActiveColor: "#57c654"
 };
 
 class Root extends Component {
   render() {
     return (
       <ThemeProvider theme={mainTheme}>
-        <React.Fragment>
-          <h1>Root</h1>
-        </React.Fragment>
+        <Home />
       </ThemeProvider>
     );
   }
