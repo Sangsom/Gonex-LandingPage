@@ -4,12 +4,12 @@ Fonts:
   ✔ Slider h1 - Montserrat Bold - 40px - #f95353 @done(18-04-18 15:25)
   ✔ Slider text - Lora Regular - 15px - #ffffff @done(18-04-18 16:03)
   ✔ Slide button - Montserrat Regular - 15px - #ffffff @done(18-04-18 16:12)
-  ☐ Services caption - h2 - Lora Regular - 32.63px - #605f65
-  ☐ Services caption - h1 - Montserrat Regular - 48.34px - #f95353
-  ☐ Services caption - h3 - Lora Italic - Italic - 20.54px - #605f65
-  ☐ Services Service - h2 - Montserrat Regular - 18px - #55565b
-  ☐ Services Service - text - Lora Regular - 15px - #9d9d9d
-  ☐ Services Service - Link - Montserrat Regular - 15px - #f95353
+  ✔ Services caption - h2 - Lora Regular - 32.63px - #605f65 @done(18-04-19 13:49)
+  ✔ Services caption - h1 - Montserrat Regular - 48.34px - #f95353 @done(18-04-19 13:49)
+  ✔ Services caption - h3 - Lora Italic - Italic - 20.54px - #605f65 @done(18-04-19 13:49)
+  ✔ Services Service - h2 - Montserrat Regular - 18px - #55565b @done(18-04-19 13:49)
+  ✔ Services Service - text - Lora Regular - 15px - #9d9d9d @done(18-04-19 13:49)
+  ✔ Services Service - Link - Montserrat Regular - 15px - #f95353 @done(18-04-19 13:49)
   ☐ Video - h2 - Montserrat Regular - 30px - #f95353
   ☐ Video - text - Lora Regular - #ffffff
   ☐ Works - h2 - Montserrat Regular - 30px - #f95353

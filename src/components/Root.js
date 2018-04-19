@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { ThemeProvider } from "styled-components";
 import Home from "./Home";
 import Slider from "./Slider";
+import Services from "./Services";
 
 const mainTheme = {
   textWhite: "#ffffff",
@@ -21,6 +22,7 @@ class Root extends Component {
         <Fragment>
           <Home />
           <Slider />
+          <Services />
         </Fragment>
       </ThemeProvider>
     );

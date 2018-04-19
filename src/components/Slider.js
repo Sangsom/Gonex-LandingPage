@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from "./Button";
 
 const SliderWrapper = styled.section`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,6 +15,7 @@ const SliderWrapper = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
 
   h1 {
     font-family: ${props => props.theme.h1Font};
