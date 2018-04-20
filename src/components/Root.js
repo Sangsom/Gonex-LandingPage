@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import Home from "./Home";
 import Slider from "./Slider";
 import Services from "./Services";
+import Video from "./Video";
 
 const mainTheme = {
   textWhite: "#ffffff",
@@ -23,6 +24,7 @@ class Root extends Component {
           <Home />
           <Slider />
           <Services />
+          <Video />
         </Fragment>
       </ThemeProvider>
     );
