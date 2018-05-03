@@ -12,7 +12,6 @@ const WorksWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 80px;
   height: 910px;
 `;
 
@@ -28,6 +27,7 @@ const WorksContent = styled.div`
     font-size: 30px;
     font-weight: 400;
     font-size: 30px;
+    margin-top: 80px;
     text-transform: uppercase;
   }
 
@@ -89,7 +89,6 @@ const Item = styled.li`
 `;
 
 const ImagesContainer = styled.div`
-  margin-top: 100px;
   display: grid;
   grid-template-columns:
     minmax(580px, 2fr)
