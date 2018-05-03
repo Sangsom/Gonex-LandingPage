@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Skill from "./Skill";
 
 const SkillsWrapper = styled.section`
   display: flex;
@@ -11,6 +12,7 @@ const SkillsWrapper = styled.section`
 const Content = styled.div`
   text-align: center;
   max-width: 25%;
+  margin-bottom: 100px;
 
   h2 {
     font-family: "Montserrat", sans-serif;
@@ -40,6 +42,9 @@ const Skills = () => {
           quis elit varius et duis, dui augue vehicula nam tinc.
         </p>
       </Content>
+
+      <Skill skill="photography" percent="30%" />
+      <Skill skill="graphic design" percent="55%" />
     </SkillsWrapper>
   );
 };
