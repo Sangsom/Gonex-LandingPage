@@ -4,6 +4,7 @@ import Home from "./Home";
 import Slider from "./Slider";
 import Services from "./Services";
 import Video from "./Video";
+import Works from "./Works";
 
 const mainTheme = {
   textWhite: "#ffffff",
@@ -25,6 +26,7 @@ class Root extends Component {
           <Slider />
           <Services />
           <Video />
+          <Works />
         </Fragment>
       </ThemeProvider>
     );
