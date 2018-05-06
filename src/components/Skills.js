@@ -20,6 +20,7 @@ const Content = styled.div`
     font-weight: 400;
     font-size: 30px;
     text-transform: uppercase;
+    margin-top: 100px;
   }
 
   p {
@@ -32,6 +33,29 @@ const Content = styled.div`
   }
 `;
 
+const skillList = [
+  {
+    name: "photography",
+    value: 93
+  },
+  {
+    name: "graphic design",
+    value: 95
+  },
+  {
+    name: "app",
+    value: 75
+  },
+  {
+    name: "programming",
+    value: 53
+  },
+  {
+    name: "web",
+    value: 84
+  }
+];
+
 const Skills = () => {
   return (
     <SkillsWrapper>
@@ -43,8 +67,9 @@ const Skills = () => {
         </p>
       </Content>
 
-      <Skill skill="photography" percent="30%" />
-      <Skill skill="graphic design" percent="55%" />
+      {skillList.map(({ name, value }, index) => (
+        <Skill skill={name} percent={value} key={index} />
+      ))}
     </SkillsWrapper>
   );
 };

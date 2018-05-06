@@ -20,10 +20,10 @@ Fonts:
   ✔ About Us - h2 - Montserrat Regular - 30px - #f95353 @done(18-05-03 15:42)
   ✔ About Us - h3 - Montserrat Regular - 13px - #ffffff @done(18-05-03 15:44)
   ✔ About Us - text - Lora Regular - 18px - #ffffff @done(18-05-03 15:46)
-  ☐ Skills - h2 - Montserrat Regular - 30px - #f95353
-  ☐ Skills - text - Lora Regular - 18px - #9d9d9d
-  ☐ Skills Skill - h2 - Montserrat Regular - 15px - #55565b
-  ☐ Skills Skill - percent - Montserrat Regular - 20px - #444444
+  ✔ Skills - h2 - Montserrat Regular - 30px - #f95353 @done(18-05-06 08:14)
+  ✔ Skills - text - Lora Regular - 18px - #9d9d9d @done(18-05-06 08:14)
+  ✔ Skills Skill - h2 - Montserrat Regular - 15px - #55565b @done(18-05-06 08:14)
+  ✔ Skills Skill - percent - Montserrat Regular - 20px - #444444 @done(18-05-06 08:14)
   ☐ Contact Us - Button - Montserrat Regular - 15px - #ffffff
   ☐ Contact Us - text - Montserrat Regular - 15px - #55565b
   ☐ Footer - text - Montserrat Regular - 15px - #57c654
