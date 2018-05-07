@@ -8,6 +8,7 @@ import Works from "./Works";
 import About from "./About";
 import Skills from "./Skills";
 import Contacts from "./Contacts";
+import Footer from "./Footer";
 
 const mainTheme = {
   textWhite: "#ffffff",
@@ -33,6 +34,7 @@ class Root extends Component {
           <About />
           <Skills />
           <Contacts />
+          <Footer />
         </Fragment>
       </ThemeProvider>
     );
