@@ -7,6 +7,7 @@ import Video from "./Video";
 import Works from "./Works";
 import About from "./About";
 import Skills from "./Skills";
+import Contacts from "./Contacts";
 
 const mainTheme = {
   textWhite: "#ffffff",
@@ -31,6 +32,7 @@ class Root extends Component {
           <Works />
           <About />
           <Skills />
+          <Contacts />
         </Fragment>
       </ThemeProvider>
     );
