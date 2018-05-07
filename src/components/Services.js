@@ -31,13 +31,19 @@ const ServicesWrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 865px;
+  min-height: 865px;
+  padding: 50px;
 `;
 
 const ServicesContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 370px);
   grid-gap: 30px;
+  width: 80%;
+
+  @media (max-width: 768px) {
+  }
 `;
 
 const Services = () => {

@@ -5,8 +5,6 @@ const ServiceBox = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 370px;
-  max-height: 300px;
   background: ${props => (props.primary ? "#56c553" : "#f7f7f7")};
   padding: 75px;
   text-align: center;
@@ -31,13 +29,32 @@ const ServiceBox = styled.div`
     font-size: 15px;
     text-transform: uppercase;
     color: ${props => (props.primary ? props.theme.textWhite : "#f95353")};
-  }
+    transition: color 0.3s;
 
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    text-decoration: none;
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: chocolate;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      margin-top: 5px;
+      background: chocolate;
+      transition: width 0.3s;
+    }
   }
 `;
 

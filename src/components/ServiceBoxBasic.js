@@ -4,8 +4,6 @@ const ServiceBoxBasic = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 370px;
-  max-height: 300px;
   padding: 75px;
 
   h1 {
