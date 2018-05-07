@@ -33,6 +33,17 @@ const SliderWrapper = styled.section`
     width: 600px;
     margin-bottom: 50px;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 13px;
+      max-width: 80%;
+    }
+  }
 `;
 
 const Slider = () => {
