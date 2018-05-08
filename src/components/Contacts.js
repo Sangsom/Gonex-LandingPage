@@ -159,15 +159,15 @@ const Contacts = () => {
       </Subscribe>
       <Details>
         <Contact>
-          <img src="../img/phone_icon.png" alt="Phone Icon" />
+          <img src="./img/phone_icon.png" alt="Phone Icon" />
           <a href="tel:+99877654321098">998 776 54321098</a>
         </Contact>
         <Contact>
-          <img src="../img/mail_icon.png" alt="Mail Icon" />
+          <img src="./img/mail_icon.png" alt="Mail Icon" />
           <a href="mailto:gonex@mail.com">gonex@mail.com</a>
         </Contact>
         <Contact>
-          <img src="../img/map_icon.png" alt="Map Icon" />
+          <img src="./img/map_icon.png" alt="Map Icon" />
           <a href="">787 Gonex Avenue,New York</a>
         </Contact>
       </Details>
@@ -176,7 +176,7 @@ const Contacts = () => {
         {socialLinks.map(({ name, icon }, index) => (
           <SocialItem key={index}>
             <a href="">
-              <img src={`../img/${icon}`} alt={name} />
+              <img src={`./img/${icon}`} alt={name} />
             </a>
           </SocialItem>
         ))}
