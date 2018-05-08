@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 /**
  * TODO: Populate with real images
- * TODO: Remove grid gap
- * TODO: Images must cover container
  * TODO: On work item hover - show a text of awesome image and likes
  */
 
@@ -12,7 +10,8 @@ const WorksWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 910px;
+  height: 100%;
+  min-height: 910px;
 `;
 
 const WorksContent = styled.div`
@@ -38,6 +37,10 @@ const WorksContent = styled.div`
     max-width: 450px;
     text-align: center;
     line-height: 2.308;
+
+    @media (max-width: 768px) {
+      width: 80%;
+    }
   }
 `;
 
@@ -76,6 +79,12 @@ const Item = styled.li`
     width: 80%;
   }
 
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+
   ${props => {
     if (props.active) {
       return `
@@ -95,28 +104,78 @@ const Item = styled.li`
 
 const ImagesContainer = styled.div`
   display: grid;
-  grid-template-columns:
-    minmax(580px, 2fr)
-    repeat(2, minmax(275px, 1fr))
-    minmax(540px, 1.5fr);
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 
-  grid-template-rows: repeat(2, minmax(275px, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: 275px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 175px;
+  }
 `;
 
 const ImageItem = styled.div`
-  background: #ccc;
+  position: relative;
+  overflow: hidden;
 
   &:first-child {
-    grid-row-start: 1;
-    grid-row-end: span 2;
+    grid-row: 1 / span 2;
   }
 
   &:last-child {
-    grid-column-start: 3;
-    grid-column-end: -1;
+    grid-column: 3 / -1;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 1640px) {
+    &:first-child {
+      grid-row: auto;
+    }
+
+    &:last-child {
+      grid-column: auto;
+    }
   }
 `;
+
+const images = [
+  {
+    name: "Work 1",
+    path: "work-1.jpg"
+  },
+  {
+    name: "Work 2",
+    path: "work-2.jpg"
+  },
+  {
+    name: "Work 3",
+    path: "work-3.jpg"
+  },
+  {
+    name: "Work 4",
+    path: "work-4.jpg"
+  },
+  {
+    name: "Work 5",
+    path: "work-5.jpg"
+  },
+  {
+    name: "Work 6",
+    path: "work-6.jpg"
+  }
+];
 
 const Works = () => {
   return (
@@ -137,12 +196,11 @@ const Works = () => {
         </Navigation>
       </WorksContent>
       <ImagesContainer>
-        <ImageItem />
-        <ImageItem />
-        <ImageItem />
-        <ImageItem />
-        <ImageItem />
-        <ImageItem />
+        {images.map(({ name, path }, index) => (
+          <ImageItem key={index}>
+            <img src={`../img/${path}`} alt={name} />
+          </ImageItem>
+        ))}
       </ImagesContainer>
     </WorksWrapper>
   );
