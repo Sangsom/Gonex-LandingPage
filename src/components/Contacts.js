@@ -8,6 +8,12 @@ const ContactsWrapper = styled.div`
   align-items: center;
   height: 508px;
   background: #1a1a1a;
+
+  @media (max-width: 768px) {
+    height: 100%;
+    min-height: 508px;
+    padding: 20px;
+  }
 `;
 
 const Subscribe = styled.form`
@@ -47,10 +53,21 @@ const Subscribe = styled.form`
     background-color: #f61a1a;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    width: 80%;
+    flex-direction: column;
+
+    input[type="email"] {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 const Details = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   width: 70%;
   margin-bottom: 80px;
@@ -77,6 +94,12 @@ const Contact = styled.div`
   &:hover a {
     color: chocolate;
   }
+
+  @media (max-width: 768px) {
+    a {
+      font-size: 13px;
+    }
+  }
 `;
 
 const Social = styled.ul`
@@ -92,6 +115,11 @@ const SocialItem = styled.li`
 
   a {
     vertical-align: baseline;
+  }
+
+  @media (max-width: 420px) {
+    width: 100%;
+    text-align: center;
   }
 `;
 
