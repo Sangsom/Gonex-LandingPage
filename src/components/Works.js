@@ -61,27 +61,32 @@ const Item = styled.li`
     cursor: pointer;
   }
 
-  &:hover::after {
-    position: absolute;
-    display: block;
+  &::after {
     content: "";
-    left: 25%;
-    right: 25%;
-    bottom: -50%;
-    border-bottom: 3px solid #f85252;
+    display: block;
+    width: 0;
+    height: 2px;
+    margin-top: 5px;
+    margin-left: 10%;
+    background: #f85252;
+    transition: width 0.3s;
+  }
+
+  &:hover::after {
+    width: 80%;
   }
 
   ${props => {
     if (props.active) {
       return `
         &::after {
-          position: absolute;
           display: block;
-          content: "";
-          left: 25%;
-          right: 25%;
-          bottom: -50%;
-          border-bottom: 3px solid #f85252;
+          width: 80%;
+          height: 2px;
+          margin-top: 5px;
+          margin-left: 10%;
+          margin-left: 10%;
+          background: #f85252;
         }
       `;
     }

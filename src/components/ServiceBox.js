@@ -42,10 +42,6 @@ const ServiceBox = styled.div`
       color: chocolate;
     }
 
-    &:hover::after {
-      width: 100%;
-    }
-
     &::after {
       content: "";
       display: block;
@@ -54,6 +50,10 @@ const ServiceBox = styled.div`
       margin-top: 5px;
       background: chocolate;
       transition: width 0.3s;
+    }
+
+    &:hover::after {
+      width: 100%;
     }
   }
 `;
