@@ -81,7 +81,7 @@ const Item = styled.li`
   @media (max-width: 768px) {
     width: 100%;
     text-align: center;
-    margin: 10px;
+    margin: 10px 0;
   }
 
   ${props => {

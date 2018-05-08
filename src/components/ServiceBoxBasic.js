@@ -31,6 +31,11 @@ const ServiceBoxBasic = styled.div`
     font-style: italic;
     color: #605f65;
   }
+
+  @media (max-width: 1024px) {
+    padding: 20px;
+    text-align: center;
+  }
 `;
 
 export default ServiceBoxBasic;

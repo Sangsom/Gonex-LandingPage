@@ -71,6 +71,16 @@ const Details = styled.div`
   justify-content: space-around;
   width: 70%;
   margin-bottom: 80px;
+
+  img {
+    min-width: 48px;
+  }
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    width: 85%;
+    margin-bottom: 20px;
+  }
 `;
 
 const Contact = styled.div`
@@ -95,7 +105,11 @@ const Contact = styled.div`
     color: chocolate;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 650px) {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 450px) {
     a {
       font-size: 13px;
     }
