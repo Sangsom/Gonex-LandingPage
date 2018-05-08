@@ -7,6 +7,10 @@ const Container = styled.div`
   background-color: rgba(255, 0, 0, 0.3);
   margin-bottom: 100px;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
 
 const Bar = styled.div`

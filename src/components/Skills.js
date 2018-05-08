@@ -14,6 +14,10 @@ const Content = styled.div`
   max-width: 25%;
   margin-bottom: 100px;
 
+  @media (max-width: 768px) {
+    max-width: 80%;
+  }
+
   h2 {
     font-family: "Montserrat", sans-serif;
     color: ${props => props.theme.textRed};
