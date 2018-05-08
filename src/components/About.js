@@ -43,6 +43,10 @@ const Content = styled.div`
     font-weight: 400;
     line-height: 1.667;
   }
+
+  @media (max-width: 768px) {
+    max-width: 80%;
+  }
 `;
 
 const About = () => {

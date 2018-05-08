@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 /**
- * TODO: Populate with real images
  * TODO: On work item hover - show a text of awesome image and likes
  */
 
@@ -106,7 +105,7 @@ const ImagesContainer = styled.div`
   display: grid;
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
 
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-auto-rows: 275px;
