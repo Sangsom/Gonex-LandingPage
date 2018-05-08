@@ -15,8 +15,8 @@ Fonts:
   ✔ Works - h2 - Montserrat Regular - 30px - #f95353 @done(18-05-03 15:08)
   ✔ Works - text - Lora Regular - 13px - #9d9d9d @done(18-05-03 15:08)
   ✔ Works Navigation - link - Montserrat Regular - 15px - #55565b @done(18-05-03 15:08)
-  ☐ Works Images - h2 - Montserrat Regular - 30px - #57c654
-  ☐ Works Images - text - Montserrat Regular - 15px - #f95353
+  ✔ Works Images - h2 - Montserrat Regular - 30px - #57c654 @done(18-05-08 14:31)
+  ✔ Works Images - text - Montserrat Regular - 15px - #f95353 @done(18-05-08 14:31)
   ✔ About Us - h2 - Montserrat Regular - 30px - #f95353 @done(18-05-03 15:42)
   ✔ About Us - h3 - Montserrat Regular - 13px - #ffffff @done(18-05-03 15:44)
   ✔ About Us - text - Lora Regular - 18px - #ffffff @done(18-05-03 15:46)
@@ -26,11 +26,8 @@ Fonts:
   ✔ Skills Skill - percent - Montserrat Regular - 20px - #444444 @done(18-05-06 08:14)
   ✔ Contact Us - Button - Montserrat Regular - 15px - #ffffff @done(18-05-07 11:30)
   ✔ Contact Us - text - Montserrat Regular - 15px - #55565b @done(18-05-07 11:30)
-  ☐ Footer - text - Montserrat Regular - 15px - #57c654
+  ✔ Footer - text - Montserrat Regular - 15px - #57c654 @done(18-05-08 14:31)
 
 Font-family:
-  ☐ Regular - 400
-  ☐ Bold - 700
-
-  font-family: 'Lora', serif;
-  font-family: 'Montserrat', sans-serif;
+  ✔ Regular - 400 @done(18-05-08 14:31)
+  ✔ Bold - 700 @done(18-05-08 14:31)
