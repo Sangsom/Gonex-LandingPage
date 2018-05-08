@@ -43,7 +43,7 @@ class Video extends Component {
     return (
       <VideoWrapper>
         <video autoPlay loop>
-          <source src="../video/video.mov" type="video/mp4" />
+          <source src="./video/video.mov" type="video/mp4" />
         </video>
         <VideoContent>
           <img src="./img/logo_video.png" alt="" />

@@ -197,7 +197,7 @@ const Works = () => {
       <ImagesContainer>
         {images.map(({ name, path }, index) => (
           <ImageItem key={index}>
-            <img src={`../img/${path}`} alt={name} />
+            <img src={`./img/${path}`} alt={name} />
           </ImageItem>
         ))}
       </ImagesContainer>
