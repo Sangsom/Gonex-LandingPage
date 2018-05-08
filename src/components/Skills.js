@@ -62,7 +62,7 @@ const skillList = [
 
 const Skills = () => {
   return (
-    <SkillsWrapper>
+    <SkillsWrapper id="skills">
       <Content>
         <h2>Gonex Statistic</h2>
         <p>

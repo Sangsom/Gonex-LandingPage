@@ -49,7 +49,7 @@ const ServicesContainer = styled.div`
 
 const Services = () => {
   return (
-    <ServicesWrapper>
+    <ServicesWrapper id="services">
       <ServicesContainer>
         <ServiceBoxBasic>
           <h2>What we do</h2>

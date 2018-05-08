@@ -152,7 +152,7 @@ const socialLinks = [
 
 const Contacts = () => {
   return (
-    <ContactsWrapper>
+    <ContactsWrapper id="contacts">
       <Subscribe method="" action="">
         <input type="email" name="email" placeholder="Email Address" />
         <button onClick={submitForm}>Subscribe</button>

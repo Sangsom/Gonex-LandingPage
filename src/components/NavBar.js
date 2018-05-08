@@ -5,31 +5,32 @@ import NavItem from "./NavItem";
 const links = [
   {
     name: "Home",
-    href: ""
+    href: "#home"
   },
   {
     name: "Services",
-    href: ""
+    href: "#services"
   },
   {
     name: "Work",
-    href: ""
+    href: "#work"
   },
   {
     name: "About Us",
-    href: ""
+    href: "#about"
   },
   {
     name: "Skills",
-    href: ""
+    href: "#skills"
   },
   {
     name: "Contact",
-    href: ""
+    href: "#contacts"
   }
 ];
 
 const Nav = styled.nav`
+  display: flex;
   width: 50%;
 
   ul {
@@ -40,6 +41,20 @@ const Nav = styled.nav`
 
   li {
     float: left;
+  }
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  @media (max-width: 768px) {
+    li {
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
   }
 `;
 

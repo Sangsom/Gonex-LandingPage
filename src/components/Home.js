@@ -9,11 +9,21 @@ const Header = styled.header`
   align-items: center;
   background: #161718;
   height: 85px;
+
+  @media (max-width: 1200px) {
+    flex-basis: 100%;
+  }
+
+  @media (max-width: 768px) {
+    height: 100%;
+    min-height: 85px;
+    padding: 20px;
+  }
 `;
 
 export default function Home() {
   return (
-    <Header>
+    <Header id="home">
       <Logo>
         <img src="./img/logo_small.png" alt="Gonex Logo" />
       </Logo>

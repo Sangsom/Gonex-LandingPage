@@ -51,7 +51,7 @@ const Content = styled.div`
 
 const About = () => {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="about">
       <Content>
         <h2>About Us</h2>
         <h3>Some simple word about our company</h3>

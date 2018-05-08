@@ -178,7 +178,7 @@ const images = [
 
 const Works = () => {
   return (
-    <WorksWrapper>
+    <WorksWrapper id="work">
       <WorksContent>
         <h2>Works</h2>
         <p>

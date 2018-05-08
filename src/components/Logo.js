@@ -10,6 +10,10 @@ const Logo = styled.div`
     max-width: 100%;
     height: auto;
   }
+
+  @media (max-width: 1200px) {
+    width: 20%;
+  }
 `;
 
 export default Logo;
